@@ -1,0 +1,9 @@
+.hub__container{
+  border : 1px solid rgb(0, 0, 0);
+  width:fit-content;
+  padding: 5px;
+  margin:0 auto;
+  margin-top:5px;
+  background:black;
+  border-radius:10%;
+}

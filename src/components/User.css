@@ -1,0 +1,24 @@
+.header__image {
+  width: 60px;
+  border-radius: 100%;
+  background: linear-gradient(145deg, #070707, #20253f) !important;
+  box-shadow: 3px 3px 7px #adb1c85b, -5px -5px 10px #8d8f9b36 !important;
+  align-items: flex-start;
+  display: flex;
+  max-width: 100%;
+}
+.header__image__container{
+  padding:10px
+}
+.header__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+.image__container {
+  margin: 0.5rem;
+}
+.header__name__container {
+  margin: 10px;
+  display: block;
+}
