@@ -1,6 +1,7 @@
 import { Button } from "@material-ui/core";
 import React from "react";
 import data from "../data";
+import Tag from "./Tag";
 
 function OverallTags() {
   const tags = data.map((user) => {
@@ -21,7 +22,7 @@ function OverallTags() {
               style={{ margin: 5 }}
             >
               {tag}
-              <b>{tag.count}</b>
+              <Tag tags={tag} />
             </Button>
           );
         });
