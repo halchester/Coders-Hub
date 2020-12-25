@@ -39,7 +39,7 @@ function User({ name, website, github, emoji, info, phone, laptop, tags }) {
             alt=""
           />
         );
-      case "andriod":
+      case "android":
         return (
           <img
             src="https://img.icons8.com/fluent/48/000000/android-os.png"
