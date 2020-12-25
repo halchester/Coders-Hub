@@ -98,7 +98,6 @@ function User({ name, website, github, emoji, info, phone, laptop, tags }) {
                 size="small"
                 variant="contained"
                 color="primary"
-                disableElevation
                 style={{ margin: 3 }}
               >
                 {tag}

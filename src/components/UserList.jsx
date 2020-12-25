@@ -6,9 +6,9 @@ import User from "./User";
 function UserList() {
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12} sm={6} md={4}>
-        {data.map((user, i) => {
-          return (
+      {data.map((user, i) => {
+        return (
+          <Grid item xs={12} sm={6} md={4}>
             <User
               name={user.name}
               website={user.website}
@@ -20,9 +20,9 @@ function UserList() {
               tags={user.tags}
               key={i}
             />
-          );
-        })}
-      </Grid>
+          </Grid>
+        );
+      })}
     </Grid>
   );
 }
