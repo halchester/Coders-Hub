@@ -30,8 +30,8 @@ module.exports = [
     laptop: "mac",
     tags: [
       "PHP",
-      "JavaScript"
-      "C++"
+      "JavaScript",
+      "C++",
       "UiT Lang",
       "React",
       "Flutter",
