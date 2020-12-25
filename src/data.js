@@ -17,6 +17,7 @@ module.exports = [
       "openCV",
       "TensorFlow",
       "firebase",
+      "git",
     ],
   },
   {
@@ -40,7 +41,7 @@ module.exports = [
       "Java",
       "Python",
       "Linux",
-      "Docker"
+      "Docker",
     ],
   },
   {
@@ -62,7 +63,7 @@ module.exports = [
       "Linux",
       "C++",
       "Firebase",
-      "git"
-    ]
-  }
+      "git",
+    ],
+  },
 ];
