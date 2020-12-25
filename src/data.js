@@ -43,4 +43,26 @@ module.exports = [
       "Docker"
     ],
   },
+  {
+    name: "Min Thu Kyaw",
+    website: "https://minthukyaw.bike",
+    github: "thukyaw11",
+    emoji: "👳🏽‍♂️",
+    info: "A passionate Javascriprter with VUE js, Backend Developer and Biker",
+    phone: "android",
+    laptop: "linux",
+    tags: [
+      "Javascript",
+      "VUE",
+      "React JS",
+      "Dart",
+      "Flutter",
+      "PHP",
+      "Laravel",
+      "Linux",
+      "C++",
+      "Firebase",
+      "git"
+    ]
+  }
 ];
