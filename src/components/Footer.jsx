@@ -28,7 +28,6 @@ function Footer() {
           <a
             href="https://uses.tech/"
             style={{ textDecoration: "none", color: "cornflowerblue" }}
-            target="_blank"
           >
             Awesome uses
           </a>

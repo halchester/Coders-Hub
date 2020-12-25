@@ -1,5 +1,4 @@
 import data from "../data";
-import axios from "axios";
 
 function merge(prop) {
   return function (acc, obj) {

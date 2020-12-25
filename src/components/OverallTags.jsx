@@ -1,6 +1,5 @@
 import { Button } from "@material-ui/core";
 import React from "react";
-import data from "../data";
 import * as utils from "./stats";
 
 const OverallTags = () => {

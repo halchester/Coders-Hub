@@ -9,13 +9,21 @@ function User({ name, website, github, emoji, info, phone, laptop, tags }) {
     switch (name) {
       case "mac":
         return (
-          <img src="https://img.icons8.com/bubbles/50/000000/mac-logo.png" />
+          <img
+            src="https://img.icons8.com/bubbles/50/000000/mac-logo.png"
+            alt=""
+          />
         );
       case "linux":
-        return <img src="https://img.icons8.com/color/48/000000/linux.png" />;
+        return (
+          <img src="https://img.icons8.com/color/48/000000/linux.png" alt="" />
+        );
       case "window":
         return (
-          <img src="https://img.icons8.com/doodle/48/000000/windows8.png" />
+          <img
+            src="https://img.icons8.com/doodle/48/000000/windows8.png"
+            alt=""
+          />
         );
       default:
         return null;
@@ -26,11 +34,17 @@ function User({ name, website, github, emoji, info, phone, laptop, tags }) {
     switch (name) {
       case "iphone":
         return (
-          <img src="https://img.icons8.com/officel/48/000000/iphone.png" />
+          <img
+            src="https://img.icons8.com/officel/48/000000/iphone.png"
+            alt=""
+          />
         );
       case "andriod":
         return (
-          <img src="https://img.icons8.com/fluent/48/000000/android-os.png" />
+          <img
+            src="https://img.icons8.com/fluent/48/000000/android-os.png"
+            alt=""
+          />
         );
       default:
         return null;
