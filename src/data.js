@@ -19,4 +19,28 @@ module.exports = [
       "firebase",
     ],
   },
+  {
+    name: "Hein Thant Maung Maung",
+    website: "https://heinthanth.ninja",
+    github: "heinthanth",
+    emoji: "😴",
+    info:
+      "FullStack Web, Mobile developer, a junior DevOps, creator of UiT lang and a PHP fan",
+    phone: "iphone",
+    laptop: "mac",
+    tags: [
+      "PHP",
+      "JavaScript"
+      "C++"
+      "UiT Lang",
+      "React",
+      "Flutter",
+      "Laravel",
+      "Express",
+      "Java",
+      "Python",
+      "Linux",
+      "Docker"
+    ],
+  },
 ];
