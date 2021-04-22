@@ -1,32 +1,30 @@
-import { Button } from "@material-ui/core";
-import React from "react";
-import * as utils from "./stats";
+import { Box, Chip, makeStyles } from '@material-ui/core';
+import React from 'react';
+import * as utils from './stats';
+
+const useStyle = makeStyles((theme) => ({
+	chip: {
+		margin: theme.spacing(1),
+	},
+}));
 
 const OverallTags = () => {
-  // const tags = data.map((user) => {
-  //   return user.tags;
-  // });
+	const tags = utils
+		.tags()
+		.map((resultTags) => `${resultTags.name} - ${resultTags.count}`);
 
-  const tags = utils
-    .tags()
-    .map((resultTags) => `${resultTags.name} - ${resultTags.count}`);
-
-  return (
-    <div style={{ marginTop: 10, marginBottom: 5 }}>
-      {tags.map((tag) => {
-        return (
-          <Button
-            size="small"
-            variant="contained"
-            color="primary"
-            style={{ margin: 5 }}
-          >
-            {tag}
-          </Button>
-        );
-      })}
-    </div>
-  );
-};;
+	const classes = useStyle();
+	return (
+		<Box>
+			{tags.map((tag) => {
+				return tag.includes('all') ? (
+					<Chip label={tag} className={classes.chip} color='primary' />
+				) : (
+					<Chip label={tag} className={classes.chip} color='secondary' />
+				);
+			})}
+		</Box>
+	);
+};
 
 export default OverallTags;

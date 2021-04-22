@@ -11,7 +11,7 @@
 
 name : your name
 
-website : your website url with http
+website : your website url with https
 
 github : your github username (the one after github.com/{your username})
 
@@ -21,5 +21,5 @@ phone : iphone (or) andriod
 
 laptop : mac (or) linux (or) window
 
-tags : Describe your skills and what you're learning
+tags : your specialized programming language and what you're learning
 

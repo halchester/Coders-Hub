@@ -1,31 +1,35 @@
-import { Typography } from "@material-ui/core";
-import React from "react";
+import { Box, makeStyles, Typography } from '@material-ui/core';
+import React from 'react';
 
+const useStyle = makeStyles({
+	root: {
+		margin: '1rem auto',
+	},
+});
 
-function Header() {
-  return (
-    <div className="header">
-      <Typography variant="h3" align="center">
-        Coders
-      </Typography>
-      <div
-        className="hub__container"
-        style={{
-          boder: "1px solid black",
-          width: "fit-content",
-          padding: 5,
-          margin: "0 auto",
-          marginTop: 5,
-          background: "black",
-          borderRadius: "10%",
-        }}
-      >
-        <Typography variant="h4" align="center" color="primary">
-          Hub
-        </Typography>
-      </div>
-    </div>
-  );
-}
+const Header = () => {
+	const classes = useStyle();
+	return (
+		<Box className={classes.root}>
+			<Typography align='center' gutterBottom>
+				<Typography variant='h3' align='center' display='inline'>
+					Coders{' '}
+				</Typography>
+
+				<Typography
+					variant='h4'
+					align='center'
+					display='inline'
+					color='primary'
+				>
+					<strong>Hub</strong>
+				</Typography>
+			</Typography>
+			<Typography align='center' variant='h6' color='secondary'>
+				A community of developers around the globe!
+			</Typography>
+		</Box>
+	);
+};
 
 export default Header;

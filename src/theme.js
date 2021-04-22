@@ -10,7 +10,7 @@ const theme = createMuiTheme({
     },
   },
   typography: {
-    fontFamily: ["Poppins"],
+    fontFamily: ["Nunito"],
   },
 });
 
