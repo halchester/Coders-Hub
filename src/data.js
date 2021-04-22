@@ -17,7 +17,7 @@ module.exports = [
 			'Typescript',
 			'React',
       'Next',
-      'Tailwindcss',
+      'Tailwind',
 			'Redux',
 			'Express',
 			'MongoDB',
