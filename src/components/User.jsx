@@ -2,13 +2,11 @@ import React from 'react';
 import {
 	Avatar,
 	Box,
-	Button,
 	Card,
 	CardContent,
 	CardHeader,
 	Chip,
 	makeStyles,
-	Paper,
 	Typography,
 } from '@material-ui/core';
 
